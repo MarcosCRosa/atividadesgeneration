@@ -35,4 +35,4 @@ numeros.add(numeroDigitado);
 const numerosCrescentes:Array<number>= Array.from(numeros);
 numerosCrescentes.sort();
 console.log(`Ordem Crescente:${numerosCrescentes.sort((a,b)=>a-b)}`);
-console.log("Numeros Digitados:",...numeros);
+console.log("Numeros Digitados:",numeros);
