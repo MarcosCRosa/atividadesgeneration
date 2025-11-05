@@ -21,6 +21,6 @@ import readline from 'readline-sync';
      console.log(`O numero ${numeroDigitado},Foi encontrado!`);
 
   }else{
-   console.log(`O numero ${numeroDigitado},Não foi encontrado`);
+   console.log(`O numero ${NaN} não foi encontrado.`);
   }
 // refeito o exercicio pois eu fiz usando Set e era Array;
